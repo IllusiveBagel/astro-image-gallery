@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Image-1",
+    "src": "/images/Image-1.jpeg",
+    "tag": "Shrek"
+  },
+  {
+    "title": "Image-2",
+    "src": "/images/Image-2.jpeg",
+    "tag": "Shrek"
+  },
+  {
+    "title": "Image-3",
+    "src": "/images/Image-3.jpeg",
+    "tag": "Shrek"
+  },
+  {
+    "title": "Image-4",
+    "src": "/images/Image-4.jpg",
+    "tag": "Cats"
+  }
+]

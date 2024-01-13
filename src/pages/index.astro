@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+
+const allImages = await getCollection("gallery");
+
+const tags = [...new Set(allImages[0].data.map((image) => image.tag).flat())];
+---
+
+<Layout title="Gallery">
+  <main>
+    {
+      tags.map((tag) => (
+        <p>
+          <a href={`/tags/${tag}`}>{tag}</a>
+        </p>
+      ))
+    }
+  </main>
+</Layout>
